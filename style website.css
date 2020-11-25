@@ -35,10 +35,10 @@ header {
 }
 .header-left {
   font-size: 30px;
-  padding: 20px 10px;
+  padding: 12px 10px;
   float: left;
   color: #F7799A;
-  font-family: "Rea Madrid 2021 UCL";
+  font-family: "Tahoma";
 }
 .header-right {
   float: right;
@@ -69,7 +69,7 @@ nav a{
   color: #F7799A;
   text-decoration: none;
   width : 120px;
-  font-family: "Rea Madrid 2021 UCL";
+  font-family: "Tahoma";
   letter-spacing: 3px;
   padding-left: 25px;
 }
