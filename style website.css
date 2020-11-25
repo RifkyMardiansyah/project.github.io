@@ -6,7 +6,7 @@ a {
   text-decoration: none;
 }
 .container {
-  width: 1170px;
+  width: auto;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -16,6 +16,7 @@ a {
   background-size: cover;
   color: #ffffff;
   text-align: center;
+  width: auto;
 }
 .top-wrapper h1 {
   opacity: 0.5;
@@ -131,37 +132,37 @@ footer p {
   background-color: #F7799A;
   border-bottom: 4px solid #916C76;
 }
-@media (max-width: 720px) {
+@media (max-width: 720px){
   header {
-    width : 104%;
+    width : 100%;
   }
   .header-left{
-    font-size: 20px;
-    margin-top: 4px;
+    font-size: 10px;
+    margin-top: 7px;
   }
   .container {
     width: 111%;
   }
   nav {
-    font-size: 12px;
+    font-size: 8px;
   }
   .top-wrapper {
-    width : 119%;
+    width : 116%;
   }
   .top-wrapper h1{
     font-size: 17px;
-    padding-right: 80px;
+    padding-right: 100px;
   }
   .top-wrapper p{
     font-size: 12px;
-    padding-right: 80px;
+    padding-right: 100px;
   }
   .icon{
     text-align: left;
     top: 50%;
     transform: translateY(-50%);
     margin-top: 110px;
-    padding-left: 130px;
+    padding-left: 50px;
   }
   .tombol {
     display: inline-block;
@@ -182,7 +183,7 @@ footer p {
       margin-left: 13px;
 }
     footer {
-      width: 119%;
+      width: 116%;
     }
     footer h3 {
       font-size: 12px;
